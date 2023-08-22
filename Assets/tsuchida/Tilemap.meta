@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Senda/Scene/ExplorationScene2-2.unity.meta
+guid: ed6400e63ae247d42bb2b92f353ac4fd
+========
 guid: e2d9db025a3a7a94db96af3290717252
 folderAsset: yes
+>>>>>>>> 67540f1d4485ae305969c305d420831c41a384cf:Assets/tsuchida/Tilemap.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
