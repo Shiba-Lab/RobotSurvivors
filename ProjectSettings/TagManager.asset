@@ -41,3 +41,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: HomeBase
+    uniqueID: 3650395917
+    locked: 0
+  - name: Base
+    uniqueID: 2352931807
+    locked: 0
+  - name: Enemy
+    uniqueID: 2549577321
+    locked: 0
+  - name: Weapon
+    uniqueID: 3532651271
+    locked: 0
+  - name: Player
+    uniqueID: 841973337
+    locked: 0
+  - name: UI
+    uniqueID: 3801045325
+    locked: 0
