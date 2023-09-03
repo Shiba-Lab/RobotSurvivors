@@ -156,17 +156,17 @@ public class Spawner : MonoBehaviour
 
     }
 
-    private void OnEnable()
-    {
-        //イベントに関数を登録
-        Enemy.OnReachedGoal += RecordEnemy;
-        //EnemyHP.OnEnemyDead += RecordEnemy;
-    }
+    //private void OnEnable()
+    //{
+    //    //イベントに関数を登録
+    //    Enemy.OnReachedGoal += RecordEnemy;
+    //    //EnemyHP.OnEnemyDead += RecordEnemy;
+    //}
 
-    private void OnDisable()
-    {
-        //イベントから関数を消去
-        Enemy.OnReachedGoal -= RecordEnemy;
-        //EnemyHP.OnEnemyDead -= RecordEnemy;
-    }
+    //private void OnDisable()
+    //{
+    //    //イベントから関数を消去
+    //    Enemy.OnReachedGoal -= RecordEnemy;
+    //    //EnemyHP.OnEnemyDead -= RecordEnemy;
+    //}
 }
