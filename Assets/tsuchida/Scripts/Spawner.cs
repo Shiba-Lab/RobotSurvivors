@@ -160,13 +160,13 @@ public class Spawner : MonoBehaviour
     //{
     //    //イベントに関数を登録
     //    Enemy.OnReachedGoal += RecordEnemy;
-    //    EnemyHP.OnEnemyDead += RecordEnemy;
+    //    //EnemyHP.OnEnemyDead += RecordEnemy;
     //}
 
     //private void OnDisable()
     //{
     //    //イベントから関数を消去
     //    Enemy.OnReachedGoal -= RecordEnemy;
-    //    EnemyHP.OnEnemyDead -= RecordEnemy;
+    //    //EnemyHP.OnEnemyDead -= RecordEnemy;
     //}
 }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8699467030133614915}
   - component: {fileID: 1082507582418643579}
   - component: {fileID: 1341067607061235271}
-  - component: {fileID: 1029615548371536311}
+  - component: {fileID: 6996361908530592624}
   m_Layer: 0
   m_Name: Enemy00
   m_TagString: Untagged
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1745389975
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5ff233243f09e6e47aeb7cb00e6244d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f384c899c25cecf469ca1d9056cbcd7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  setMoveSpeed: 20
+  setMoveSpeed: 30
 --- !u!114 &8699467030133614915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,7 +177,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.8184204, y: -10.436901}
+  m_Offset: {x: -11.588043, y: -10.436901}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -188,9 +188,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 28.257812, y: 43.126198}
+  m_Size: {x: 4.8692017, y: 43.126198}
   m_EdgeRadius: 0
---- !u!95 &1029615548371536311
+--- !u!95 &6996361908530592624
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -198,7 +198,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4466022583554326264}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 98161bd0bf2fc3f4b8ff7c23b1e6b17d, type: 2}
   m_CullingMode: 0
