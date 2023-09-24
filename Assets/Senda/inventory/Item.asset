@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 128e6cd6962432542830c4ff15d9f392, type: 3}
-  m_Name: AnoItem
+  m_Script: {fileID: 11500000, guid: ef907b3f5b9c7a24faa8654b2480d0ba, type: 3}
+  m_Name: Item
   m_EditorClassIdentifier: 
-  name: AnoGazou
+  itemName: Adesu
   icon: {fileID: 21300000, guid: 6438de51f5bceb84da7506f52c67cd64, type: 3}
